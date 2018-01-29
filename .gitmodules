@@ -1,0 +1,6 @@
+[submodule "QDiscord"]
+	path = QDiscord
+	url = ./QDiscord
+[submodule "QWeeChat"]
+	path = QWeeChat
+	url = ./QWeeChat

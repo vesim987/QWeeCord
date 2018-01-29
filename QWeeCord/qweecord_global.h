@@ -1,0 +1,12 @@
+#ifndef QWEECORD_GLOBAL_H
+#define QWEECORD_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(QWEECORD_LIBRARY)
+#  define QWEECORDSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define QWEECORDSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // QWEECORD_GLOBAL_H
